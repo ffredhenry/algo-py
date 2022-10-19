@@ -6,6 +6,15 @@ science algorithms with file manipulation (using CSV files of random numbers).
 
 The functional file contains I/O functions for ingressing and egressing data.
 
+### Algos covered:
+* Selection Sort
+* Insertion Sort
+* Quick Sort
+* Bubble Sort
+* Merge Sort
+
+More to come!
+
 ###### inputout.py
 * Contains functions that are imported into algorithm scripts for ingressing/
 exporting data to csv
