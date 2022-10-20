@@ -1,7 +1,8 @@
 #!/bin/python3
 
-# ---------- title
-
+# ---------- Quick Sort
+# Python implementation of the quick sort algorithm
+# performed against a randomly-generated list of numbers
 
 
 # ---------- Imported modules
@@ -16,7 +17,7 @@ target = sys.argv[1]
 # ingress of data
 numdata = io.ingressCSV(target)
 
-# quick sort algorithm, defined as a function (to be called recursively)
+# quick sort algorithm, defined as a function to enable recursive calling
 def quickSort(data):
     if(len(data)>1):
         pivot = int(len(data)/2)
@@ -34,11 +35,6 @@ def quickSort(data):
 
 # running quicksort against the ingressed data
 numdata = quickSort(numdata)
-
-#FIXME: try using a separate list initialization if problems encountered
-#writedata = quiskSort(numdata)
-#io.egressCSV(writedata,target)
-
 
 # finishing up
 print("Sort complete, writing to file!")

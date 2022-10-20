@@ -1,7 +1,8 @@
 #!/bin/python3
 
-# ---------- title
-
+# ---------- Selection Sort
+# Python implementation of the selection sort algorithm
+# n^n complexity, so it will start to chug on larger datasets.
 
 
 # ---------- Imported modules
@@ -11,9 +12,9 @@ import sys
 
 
 # ---------- Main
-target = sys.argv[1]
 
 # ingress of data
+target = sys.argv[1]
 numdata = io.ingressCSV(target)
 
 # selection sort algorithm
@@ -24,9 +25,9 @@ for i in range(len(numdata)):
         if numdata[mindex] > numdata[j]:
             mindex = j
 
-    # updating values - trying without simulatenous assignment
+    # updating values using simultaneous assignments
     numdata[i], numdata[mindex] =  numdata[mindex], numdata[i]
 
 # finishing up
-print("writing to file")
+print("Sort complete, writing to file!")
 io.egressCSV(numdata,target)

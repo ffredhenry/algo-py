@@ -15,16 +15,16 @@ The functional file contains I/O functions for ingressing and egressing data.
 
 More to come!
 
-###### inputout.py
+#### inputout.py
 * Contains functions that are imported into algorithm scripts for ingressing/
 exporting data to csv
 
-###### list-generator.py
+#### list-generator.py
 * Used to create randomly-generated CSVs for testing algorithm performance
 
-###### selection-sort.py
+#### selection-sort.py
 * Basic selection sort algorithm, n\*n=n^2 complexity (very slow)
 
-###### tripler.py
+#### tripler.py
 * Serves as a proof-of-concept for file manipulation
 
