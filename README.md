@@ -15,15 +15,20 @@ The functional file contains I/O functions for ingressing and egressing data.
 
 More to come!
 
-#### inputout.py
+
+## Ideas
+- concatenate strings to create a sorted csv separate from intake, e.g. ./input.csv -> ./input-sorted.csv [-4] index?
+- ebic 1337 hacker progress bar fed from loop iterations -> output to console
+- time study (how long does each take) + complexity log
+
+### Other funcions
+
+#### input-output.py
 * Contains functions that are imported into algorithm scripts for ingressing/
 exporting data to csv
 
 #### list-generator.py
 * Used to create randomly-generated CSVs for testing algorithm performance
-
-#### selection-sort.py
-* Basic selection sort algorithm, n\*n=n^2 complexity (very slow)
 
 #### tripler.py
 * Serves as a proof-of-concept for file manipulation
