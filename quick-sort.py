@@ -3,6 +3,8 @@
 # ---------- Quick Sort
 # Python implementation of the quick sort algorithm
 # performed against a randomly-generated list of numbers
+# Uses return arguments in the recursively called quickSort()
+# function
 
 
 # ---------- Imported modules

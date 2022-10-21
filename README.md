@@ -17,11 +17,13 @@ More to come!
 
 
 ## Ideas
-- concatenate strings to create a sorted csv separate from intake, e.g. ./input.csv -> ./input-sorted.csv [-4] index?
 - ebic 1337 hacker progress bar fed from loop iterations -> output to console
 - time study (how long does each take) + complexity log
 
-### Other funcions
+## Other funcions
+
+#### buildtest.sh
+* Used to generate a series of CSVs with increasingly larger row sizes
 
 #### input-output.py
 * Contains functions that are imported into algorithm scripts for ingressing/

@@ -1,7 +1,8 @@
 #!/bin/python3
 
-# ---------- title
-
+# ---------- Tripler
+# Serves as a proof-of-concept for CSV importation
+# and manipulation of its elements in a created list.
 
 
 # ---------- Imported modules
