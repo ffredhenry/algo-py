@@ -17,7 +17,7 @@ More to come!
 
 
 ## Ideas
-- ebic 1337 hacker progress bar fed from loop iterations -> output to console
+- Reverse order sorting algorithms (to kick it up a notch)
 - time study (how long does each take) + complexity log
 
 ## Other funcions
