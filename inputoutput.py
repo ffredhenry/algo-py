@@ -27,6 +27,11 @@ def ingressCSV(location):
 # No returned value(s), only closes a file
 
 def egressCSV(row,location):
+    
+    # create a new file with -sorted
+    location = location[:-4]+"-sorted"+location[-4:]
+
+
     f = open(location,'w')
     writehead = csv.writer(f)
 
