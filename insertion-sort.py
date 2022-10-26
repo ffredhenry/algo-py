@@ -1,6 +1,7 @@
 #!/bin/python3
 
-# --------- Insertion sort
+# --------- Insertion Sort Algorithm
+# Implementation of algorithm in python
 
 # --------- Imported modules
 import inputoutput as io
@@ -25,12 +26,6 @@ def insertionSort(data):
 
         # move key after element smaller than it
         data[j + 1] = key
-
-#testarr = [99,77,44,22,11,33]
-#print(testarr)
-#insertionSort(testarr)
-#FIXME: no return argument needed!
-#print(testarr)
 
 # sorting call
 insertionSort(numdata)

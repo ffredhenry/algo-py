@@ -1,7 +1,9 @@
 #!/bin/python3
 
 # ---------- inputoutput.py
-# Contains functions used for creating and intaking data
+# Contains functions used for the creating, importing and exporting
+# series of randomly-generated integers to a CSV file. This is used
+# as a module in the algo-py scripts to simply and expedite coding.
 
 # ---------- Imported Modules
 import csv
@@ -31,10 +33,11 @@ def egressCSV(row,location):
     # create a new file with -sorted
     location = location[:-4]+"-sorted"+location[-4:]
 
-
+    # open file to write
     f = open(location,'w')
     writehead = csv.writer(f)
 
+    # write the row to file and close
     writehead.writerow(row)
     f.close()
 

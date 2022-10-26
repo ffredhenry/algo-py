@@ -1,8 +1,10 @@
 #!/bin/python3
 
-# ---------- title
-
-
+# ---------- Bubble Sort Algorithm
+# Python implementation of bubble sort algorithm
+# uses the csv, and inputoutput modules to import
+# CSVs and sort the numbers in a list before writing
+# to a CSV file with an appended -sorted title.
 
 # ---------- Imported modules
 import inputoutput as io
@@ -23,5 +25,5 @@ for i in range(len(numdata)):
                 numdata[j], numdata[j+1] = numdata[j+1], numdata[j]
 
 # finishing up
-print("writing to file")
+print("Sorting complete! Writing to file.")
 io.egressCSV(numdata,target)
