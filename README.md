@@ -12,6 +12,7 @@ The functional file contains I/O functions for ingressing and egressing data.
 * Quick Sort
 * Bubble Sort
 * Merge Sort
+* Heap Sort
 
 More to come!
 
@@ -19,6 +20,7 @@ More to come!
 ## Ideas
 - Reverse order sorting algorithms (to kick it up a notch)
 - time study (how long does each take) + complexity log
+- seperate appends depending on each algorithm used
 
 ## Other funcions
 
@@ -33,5 +35,5 @@ exporting data to csv
 * Used to create randomly-generated CSVs for testing algorithm performance
 
 #### tripler.py
-* Serves as a proof-of-concept for file manipulation
+* Serves as a proof-of-concept for file content manipulation
 
