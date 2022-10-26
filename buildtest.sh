@@ -25,8 +25,8 @@ rm ~/csvs/*
 # biggiggerest
 ./list-generator.py 1000000 10000000 ~/csvs/millionaire.csv
 
-# biggiggiggerest
-./list-generator.py 1000000000 10000000000 ~/csvs/gigalist.csv
+# biggiggiggerest DO NOT UNCOMMENT
+#./list-generator.py 1000000000 10000000000 ~/csvs/gigalist.csv
 
 echo "\nHere are the generated lists:"
 ls ~/csvs/*
