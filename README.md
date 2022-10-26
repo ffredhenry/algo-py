@@ -1,39 +1,36 @@
-# algo-py
-
-## The python algorithm repository
+# algo-py: the python algorithm repository
 The purpose of this repo is to explore and demonstrate the function of computer
 science algorithms with file manipulation (using CSV files of random numbers).
 
 The functional file contains I/O functions for ingressing and egressing data.
 
-### Algos covered:
-* Selection Sort
-* Insertion Sort
-* Quick Sort
-* Bubble Sort
-* Merge Sort
-* Heap Sort
+### featured algorithms:
+* Selection Sort - 0(n^2)
+* Insertion Sort - 0(n^2)
+* Quick Sort - 0(n*log(n))
+* Bubble Sort - 0(n^2)
+* Merge Sort - 0(n*log(n))
+* Heap Sort - 0(n*log(n))
 
-More to come!
-
-
-## Ideas
-- Reverse order sorting algorithms (to kick it up a notch)
-- time study (how long does each take) + complexity log
-- seperate appends depending on each algorithm used
-
-## Other funcions
+## additional included funcions
 
 #### buildtest.sh
-* Used to generate a series of CSVs with increasingly larger row sizes
+Generates a series of CSVs in progressively larger sizes for running algorithms against
 
-#### input-output.py
-* Contains functions that are imported into algorithm scripts for ingressing/
-exporting data to csv
+#### inputoutput.py
+Library for functions that are used by the scripts to:
+* generate
+* ingest
+* export
+the contents of CSV files for sorting purposes
 
 #### list-generator.py
-* Used to create randomly-generated CSVs for testing algorithm performance
+Uses the inputoutput file as a module for generating CSVs based on command line arguments
 
 #### tripler.py
-* Serves as a proof-of-concept for file content manipulation
+Proof-of-concept for CSV content manipulation. Also serves as base for additional algorithms
 
+## ideas-list
+- Reverse order sorting algorithms (to kick it up a notch)
+- time study (how long does each take) + complexity log
+- seperate file appends depending on each algorithm used
