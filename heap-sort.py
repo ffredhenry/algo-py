@@ -58,6 +58,7 @@ def heapSort(atad):
 # using sorting algorithm
 heapSort(numdata)
 
-# finishing up
+# finishing up, appending "-heapsorted" to sorted CSV
+target = target[:-4]+"-heapsorted"+target[-4:]
 print("Sorting done! Writing to file")
 io.egressCSV(numdata,target)

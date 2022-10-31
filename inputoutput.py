@@ -31,7 +31,7 @@ def ingressCSV(location):
 def egressCSV(row,location):
     
     # create a new file with -sorted
-    location = location[:-4]+"-sorted"+location[-4:]
+    # location = location[:-4]+"-sorted"+location[-4:]
 
     # open file to write
     f = open(location,'w')

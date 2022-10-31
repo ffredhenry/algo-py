@@ -56,6 +56,7 @@ def mergeSort(data):
 # calling the function
 mergeSort(numdata)
 
-# finishing up and egress of data
+# finishing up and appending "-mergesorted" to CSV
+target = target[:-4]+"-mergesorted"+target[-4:]
 print("Sorting done, writing to file!")
 io.egressCSV(numdata,target)

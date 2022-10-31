@@ -30,6 +30,7 @@ def insertionSort(data):
 # sorting call
 insertionSort(numdata)
 
-# wrapping up
+# wrapping up and appending "-insertionsorted" to CSV
+target = target[:-4]+"-insertionsorted"+target[-4:]
 print("Sorting done! Writing to file.")
 io.egressCSV(numdata,target)

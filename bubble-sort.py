@@ -24,6 +24,7 @@ for i in range(len(numdata)):
             if numdata[j] > numdata[j+1]:
                 numdata[j], numdata[j+1] = numdata[j+1], numdata[j]
 
-# finishing up
+# finishing up, appending "-bubblesorted" to CSV
+target = target[:-4]+"-bubblesorted"+target[-4:]
 print("Sorting complete! Writing to file.")
 io.egressCSV(numdata,target)

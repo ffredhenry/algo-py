@@ -38,6 +38,7 @@ def quickSort(data):
 # running quicksort against the ingressed data
 numdata = quickSort(numdata)
 
-# finishing up
+# finishing up and appending "-quicksorted" to CSV
+target = target[:-4]+"-quicksorted"+target[-4:]
 print("Sort complete, writing to file!")
 io.egressCSV(numdata,target)
