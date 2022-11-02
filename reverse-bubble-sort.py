@@ -1,10 +1,9 @@
 #!/bin/python3
 
 # ---------- REVERSE Bubble Sort Algorithm
-# Python implementation of bubble sort algorithm
-# uses the csv, and inputoutput modules to import
-# CSVs and sort the numbers in a list before writing
-# to a CSV file with an appended -sorted title.
+# Bubble sort in reverse (greatest --> least)
+# Very simple implementation due to straightforward
+# layout of algorithm
 
 # ---------- Imported modules
 import inputoutput as io
