@@ -28,6 +28,7 @@ for i in range(len(numdata)):
     # updating values using simultaneous assignments
     numdata[i], numdata[mindex] =  numdata[mindex], numdata[i]
 
-# finishing up
+# finishing up, appending identifier to file
+target = target[:-4]+"-reverse-selection"+target[-4:]
 print("Sort complete, writing to file!")
 io.egressCSV(numdata,target)
