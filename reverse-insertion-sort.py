@@ -33,6 +33,6 @@ def insertionSort(data):
 insertionSort(numdata)
 
 # wrapping up and appending "-insertionsorted" to CSV
-target = target[:-4]+"-REV-insertionsorted"+target[-4:]
+target = target[:-4]+"-reverse-insertion"+target[-4:]
 print("Sorting done! Writing to file.")
 io.egressCSV(numdata,target)

@@ -24,6 +24,6 @@ for i in range(len(numdata)):
                 numdata[j], numdata[j+1] = numdata[j+1], numdata[j]
 
 # finishing up, appending "-bubblesorted" to CSV
-target = target[:-4]+"-REV-bubblesorted"+target[-4:]
+target = target[:-4]+"-reverse-bubble"+target[-4:]
 print("Sorting complete! Writing to file.")
 io.egressCSV(numdata,target)
